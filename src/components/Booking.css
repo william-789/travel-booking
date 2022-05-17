@@ -1,0 +1,64 @@
+.firstSection {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./imagens/london.jpg');
+    background-size: cover;
+}
+.booking {
+    width: 60vw;
+    margin: auto;
+}
+.tablist {
+    width: 60vw;
+    list-style: none;
+    color: #fff;
+    background-color: black;
+    box-sizing: border-box;
+    padding-inline-start: 0;
+    margin: 0;
+}
+.tablist li {
+    display: inline-block;
+    background-color:  #f44336;
+    width: 20vw;
+    text-align: center;
+    padding: 12px;
+}
+.tablist li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 15px;
+    
+}
+.tabSection {
+    width: 60vw;
+    min-height: 100px;
+    background-color: #fff;
+    padding: 6px;
+}
+.tabSection h1 {
+    margin: 0;
+    padding: 18px 6px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.inputs {
+    display: inline-block;
+    width: 50%;
+    background-color: rgba(34, 255, 45, 0.15);
+    padding: 6px;
+}
+.inputs label {
+    display: block;
+    margin-bottom: 5px;
+}
+.inputs input {
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 14px;
+    border: solid 1px rgba(0, 0, 0, 0.15);
+}
