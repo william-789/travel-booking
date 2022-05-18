@@ -11,18 +11,19 @@
     width: 60vw;
     margin: auto;
 }
+/* -- tabs -- */
 .tablist {
     width: 60vw;
     list-style: none;
     color: #fff;
-    background-color: black;
     box-sizing: border-box;
     padding-inline-start: 0;
     margin: 0;
+    background-color: #000;
 }
 .tablist li {
     display: inline-block;
-    background-color:  #f44336;
+    background-color:  #000;
     width: 20vw;
     text-align: center;
     padding: 12px;
@@ -33,6 +34,11 @@
     padding-left: 15px;
     
 }
+/* - active tabs - */
+.tablist li.active {
+    background-color: #f44336;
+}
+/* -- sections for the tabs -- */
 .tabSection {
     width: 60vw;
     min-height: 100px;
@@ -40,16 +46,12 @@
     padding: 6px;
 }
 .tabSection h1 {
-    margin: 0;
     padding: 18px 6px;
-    font-size: 24px;
-    font-weight: 400;
 }
-
+/* - sections inputs - */
 .inputs {
     display: inline-block;
     width: 50%;
-    background-color: rgba(34, 255, 45, 0.15);
     padding: 6px;
 }
 .inputs label {
@@ -61,4 +63,32 @@
     padding: 12px 10px;
     font-size: 14px;
     border: solid 1px rgba(0, 0, 0, 0.15);
+}
+/* - sections buttons - */
+.tabSection button {
+    margin: 6px;
+    padding: 12px 20px;
+    background-color: #656565;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+/* Responsiveness */
+@media screen and (max-width: 500px) {
+    .booking {
+        width: 100vw;
+    }
+    .tablist {
+        width: 100vw;
+    }
+    .tablist li {
+        width: calc(100vw/3);
+    }
+    .tabSection {
+        width: 100vw;
+    }
+    .inputs {
+        display: block;
+        width: 100%;
+    }
 }

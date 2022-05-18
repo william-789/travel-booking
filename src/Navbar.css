@@ -1,0 +1,17 @@
+.navbar {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    color: #656565;
+    padding: 16px;
+}
+.navbar .logo {
+    color: #f44336;
+    display: flex;
+    align-items: center;
+}
+.navbar .logo h1 {
+    font-size: 24px;
+    margin: 0 0 0 16px;
+    font-weight: 700;
+}
