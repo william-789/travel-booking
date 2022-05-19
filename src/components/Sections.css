@@ -1,0 +1,61 @@
+.sections {
+    padding: 0 10vw;
+    width: 100vw;
+    margin: 0;
+    background-color: rgb(241,241,241);
+}
+.sections h1 {
+    margin: 0;
+    padding: 36px 16px 24px 16px;
+}
+.sections p {
+    padding: 0 16px;
+}
+.sections p span {
+    font-weight: 700;
+}
+/*ok*/
+.sections .images {
+    padding: 8px;
+    width: 100%;
+    display: flex;
+}
+.sections .images .half {
+    width: 50%;
+    position: relative;
+    display: inline-block;
+}
+.sections .images .half .text {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    color: #fff;
+}
+.sections .images .half img {
+    width: 100%;
+    padding: 8px;
+}
+@media only screen and (max-width: 769px){
+    .sections {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .sections .images {
+        padding: 8px;
+        display: block;
+    }
+    .sections .images .half {
+        width: 100%;
+    }
+}
+/* specific of Nature */
+.sections .images .half .info {
+    min-height: 190px;
+    background-color: #000;
+    margin: 0 8px 8px 8px;
+}
+.sections .images .half.nature img {
+    width: 100%;
+    padding: 8px 8px 0 8px;
+}

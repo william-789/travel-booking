@@ -4,6 +4,7 @@ import Offers from './components/Offers';
 import Nature from './components/Nature';
 import Subscription from './components/Subscription';
 import Contact from './components/Contact';
+import Footer from './Footer'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Navbar />
     <Booking />
     <Offers />
+    <Nature />
     </>    
   );
 }
@@ -18,9 +20,9 @@ function App() {
 export default App;
 
 /* Order: 
-Navbar
-Booking
-Offers
+Navbar - ok
+Booking - ok
+Offers - ok
 Nature
 Subscription
 Contact
