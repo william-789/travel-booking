@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/travel-booking/static/css/main.940c7732.css",
+    "main.js": "/travel-booking/static/js/main.9ac9bff2.js",
+    "static/media/london.jpg": "/travel-booking/static/media/london.a0e59caf61aec00a3bb6.jpg",
+    "static/media/mountains.jpg": "/travel-booking/static/media/mountains.087553c5a5c1878ea5b2.jpg",
+    "static/media/cinqueterre.jpg": "/travel-booking/static/media/cinqueterre.f71b29d79ed8b4a75613.jpg",
+    "static/media/ocean.jpg": "/travel-booking/static/media/ocean.312468fa0509438ed727.jpg",
+    "static/media/paris.jpg": "/travel-booking/static/media/paris.5ea39f78e2aff3742d38.jpg",
+    "static/media/pisa.jpg": "/travel-booking/static/media/pisa.be162148a1eaa899bd9a.jpg",
+    "static/media/sanfran.jpg": "/travel-booking/static/media/sanfran.b00af96eac786d56831e.jpg",
+    "static/media/newyork.jpg": "/travel-booking/static/media/newyork.a81197c9b6a27ab26ca0.jpg",
+    "index.html": "/travel-booking/index.html",
+    "main.940c7732.css.map": "/travel-booking/static/css/main.940c7732.css.map",
+    "main.9ac9bff2.js.map": "/travel-booking/static/js/main.9ac9bff2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.940c7732.css",
+    "static/js/main.9ac9bff2.js"
+  ]
+}
