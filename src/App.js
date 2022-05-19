@@ -23,7 +23,7 @@ export default App;
 Navbar - ok
 Booking - ok
 Offers - ok
-Nature
+Nature - bug aaaaaaaaa
 Subscription
 Contact
 Footer
